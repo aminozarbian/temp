@@ -1,0 +1,214 @@
+mode: Global
+port: 7890
+proxies:
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: لطفاً قبل از اتصال ، اشتراک خود را به‌روزرسانی فرمایید. ❗️
+  network: http
+  port: 1003
+  server: s1.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 [d3b9_Reza] 1
+  network: http
+  port: 1003
+  server: s1.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 [d3b9_Reza] 2
+  network: http
+  port: 1003
+  server: s2.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇬🇧 [d3b9_Reza] 1
+  network: http
+  port: 1004
+  server: s1.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇬🇧 [d3b9_Reza] 2
+  network: http
+  port: 1004
+  server: s2.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇵🇱 [d3b9_Reza] 1
+  network: http
+  port: 1005
+  server: s1.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇵🇱 [d3b9_Reza] 2
+  network: http
+  port: 1005
+  server: s2.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇫🇷 [d3b9_Reza] 1
+  network: http
+  port: 1006
+  server: s1.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇫🇷 [d3b9_Reza] 2
+  network: http
+  port: 1006
+  server: s2.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇹🇷 [d3b9_Reza] 1
+  network: http
+  port: 1007
+  server: s1.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 🇹🇷 [d3b9_Reza] 2
+  network: http
+  port: 1007
+  server: s2.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+- http-opts:
+    Host: www.speedtest.net
+    headers:
+      Connection:
+      - keep-alive
+    ip-version: dual
+    method: GET
+    path:
+    - /
+  name: 📈 0 B GB/80.0 GB GB | 📅 30 Days
+  network: http
+  port: 1003
+  server: s2.ttay.xyz
+  type: vless
+  udp: true
+  uuid: ccbe1a50-92f9-4dc3-ad67-13917002a368
+rules: []
+proxy-groups:
+- name: ♻️ Automatic
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - لطفاً قبل از اتصال ، اشتراک خود را به‌روزرسانی فرمایید. ❗️
+  - 🇩🇪 [d3b9_Reza] 1
+  - 🇩🇪 [d3b9_Reza] 2
+  - 🇬🇧 [d3b9_Reza] 1
+  - 🇬🇧 [d3b9_Reza] 2
+  - 🇵🇱 [d3b9_Reza] 1
+  - 🇵🇱 [d3b9_Reza] 2
+  - 🇫🇷 [d3b9_Reza] 1
+  - 🇫🇷 [d3b9_Reza] 2
+  - 🇹🇷 [d3b9_Reza] 1
+  - 🇹🇷 [d3b9_Reza] 2
+  - 📈 0 B GB/80.0 GB GB | 📅 30 Days
